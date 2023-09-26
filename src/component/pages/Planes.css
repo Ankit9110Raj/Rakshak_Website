@@ -75,7 +75,7 @@
     color: black;
   }
   @media (max-width: 768px) {
-    .container-odd {
+    .container {
       flex-direction: column; /* Stack items vertically on small screens */
       padding: 0%;
     }
