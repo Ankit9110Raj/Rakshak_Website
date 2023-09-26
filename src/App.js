@@ -23,7 +23,7 @@ function App() {
     <Route path="/home" element={<Home />} />
     <Route path='/plane' element={<Planes/>}/>
     <Route path='/subsystems' element={<Subsystem/>}/>
-    <Route path='/contact' element={<Contact/>}/>
+    <Route path='/contactus' element={<Contact/>}/>
     <Route path='/competitions' element={<Competition/>}/>
     <Route path='/subsystems/aero' element={<Aero/>}/>
     <Route path='/subsystems/software' element={<Software/>}/>

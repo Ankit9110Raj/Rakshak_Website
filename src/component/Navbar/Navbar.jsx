@@ -146,7 +146,7 @@ const handleMenuButtonClick = () => {
               else{
                 return(
                 <Link
-                 to={`/${page.toLowerCase()}`}
+                 to={`/${page.replace(/\s+/g, '').toLowerCase()}`}
                 key={my_pages}
                 style={{textDecoration:'none'}}
                 >
@@ -253,7 +253,7 @@ const handleMenuButtonClick = () => {
                               }
                               else{
                                 return(
-                                  <Link to={`/${page.toLowerCase()}`} key={my_pages} style={{ textDecoration: 'none',...buttonStyles }}>
+                                  <Link to={`/${page.replace(/\s+/g, '').toLowerCase()}`} key={my_pages} style={{ textDecoration: 'none',...buttonStyles }}>
                                     <MenuItem onClick={handleMenuButtonClick} style={{...buttonStyles,menuItemStyles}}>{page}</MenuItem>
                                   </Link>
 
