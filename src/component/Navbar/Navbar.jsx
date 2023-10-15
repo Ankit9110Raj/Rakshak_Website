@@ -15,6 +15,9 @@ const Image = styled('img')({
 
 const StyledHeader = styled(AppBar)`
   background: #f5eec1;
+  
+  position: static;
+  
 `
 const buttonStyles = {
  fontSize: '18px',
@@ -53,7 +56,7 @@ const handleMenuButtonClick = () => {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <StyledHeader position="static">
+      <StyledHeader position="relative">
         <Toolbar>
          
           <Box>

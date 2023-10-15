@@ -11,7 +11,8 @@ import Aero from './component/pages/Aero';
 import Software from'./component/pages/Software';
 import Controls from './component/pages/Controls';
 import Marketing from'./component/pages/Marketing';
-
+import Footer  from './component/Footer/footer';
+import Team from './component/pages/Team';
 function App() {
   return (
     <>
@@ -25,12 +26,14 @@ function App() {
     <Route path='/subsystems' element={<Subsystem/>}/>
     <Route path='/contactus' element={<Contact/>}/>
     <Route path='/competitions' element={<Competition/>}/>
+    <Route path='/teams' element={<Team/>}/>
     <Route path='/subsystems/aero' element={<Aero/>}/>
     <Route path='/subsystems/software' element={<Software/>}/>
     <Route path='/subsystems/controls' element={<Controls/>}/>
     <Route path='/subsystems/marketing' element={<Marketing/>}/>
     
     </Routes>
+    <Footer/>
     </BrowserRouter>
     </>
   );
