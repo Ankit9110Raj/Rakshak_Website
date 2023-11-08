@@ -16,57 +16,68 @@
     color: black;
   }
 
-  .container {
+  .container-c {
     display: flex;
-    align-items: center; /* Center content vertically */
+    align-items: center;
     padding-top: 20px;
-    padding-left: 10%; 
-    padding-right: 10%;/* Add spacing around the content */
+    padding-left: 10%;
+    padding-right: 10%;
     margin: auto;
-
-    max-width: 100%; /* Ensure content doesn't exceed the viewport width */
+    max-width: 100%;
   }
   
-  /* Styles for the image */
   .image-c {
-    flex: 1; /* Let the image take up available space */
-    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    flex: 1;
+    max-width: 100%;
     width: 80%;
     height: auto;
+  }
+  
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text, .text-even {
+    flex: 1;
+    max-width: 100%;
+    font-weight: 600;
+    font-size: larger;
+  }
+  
+  @media (max-width: 1000px) {
+    .container-c {
+      flex-direction: column;
+       padding: 20px;
+      text-align: center;
+      align-items: center;
+      margin: auto;
     
+    width: 80%;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   
-  
-  /* Styles for the responsive image */
-  .responsive-image{
-    max-width: 100%; /* Make the image fully responsive */
-    /*height: auto; /* Maintain the image's aspect ratio */
+  .text, .text-even {
+    margin: 0;
+    order: 1;
+    font-size: initial;
   }
+  .image-c {
+    width: 100%; /* Full-width images for smaller screens */
+ }
   
-  /* Styles for the text */
-  .text{
-    flex: 1; /* Let the text take up available space */
-    max-width: 100%; /* Ensure the text doesn't exceed its container's width */
-    margin-left: 50px;
-    font-weight: 600;
-    font-size: larger;
+ 
   }
 
-  .text-even{
-    flex: 1; /* Let the text take up available space */
-    max-width: 100%; /* Ensure the text doesn't exceed its container's width */
-    margin-right: 50px;
-    font-weight: 600;
-    font-size: larger;
-  }
+  
 
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column; /* Stack items vertically on small screens */
-      padding: 0%;
-    }
-    .text{
-        margin-right: 17px;
-        margin-left: 30px;
-    }
-}
+
+ 
+  
+    

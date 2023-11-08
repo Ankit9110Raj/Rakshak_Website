@@ -1,4 +1,6 @@
 import React from 'react'
+
+// import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./Competition.css"
 import Youth from "../../images/Youth.gif"
 import Sih from "../../images/sih.gif"
@@ -6,31 +8,34 @@ import Auvsi from "../../images/auvsi.gif"
 
 const Competition = () => {
   return (
+    
     <>
     <div className='competition'>Targated Competition</div>
 
-    <div className="container" style={{ marginTop: '20px' }}>
-   <div className="text-even">
+    <div className="container-c" style={{ marginTop: '20px' }}>
+   <div className="text-even" >
    <h2 className="/">Air Cargo Challenge</h2>
         <p>The Air Cargo Challenge (ACC) is a competition aimed at engineering students.
-It was created to excite students for aviation and to experience the challenges of an engineering task.
-Within one year, an unmanned aircraft is designed and built to compete against other teams from all over the world.</p>
+          It was created to excite students for aviation and to experience the challenges of an engineering task.
+          Within one year, an unmanned aircraft is designed and built to compete against other teams from all over the world.</p>
       </div>
       <div className="image-c">
         <img
           src={Sih}
-          alt="Image"
+          alt="Image1"
           className="responsive-image"
         />
       </div>  
     </div>
 
-    <div className="container">
+    <div className="container-c">
       <div className="image-c">
         <img
           src={Auvsi}
-          alt="Image"
+          alt="Image1"
           className="responsive-image"
+          style={{maxwidth: '100%',
+            width: 'auto', height:'500px'}}
         />
       </div>  
       <div className="text">
@@ -39,7 +44,7 @@ Within one year, an unmanned aircraft is designed and built to compete against o
       </div>
     </div>
 
-    <div className="container" style={{ marginTop: '20px' }}>
+    <div className="container-c" style={{ marginTop: '20px' }}>
    <div className="text-even">
    <h2 className="/">Smart India Hackathon</h2>
         <p>Smart India Hackathon is a nationwide initiative to provide students with a platform to solve some of the pressing problems which we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem-solving and to promote innovation out-of-the-box thinking in young minds, especially engineering students from across India.</p>
@@ -47,18 +52,20 @@ Within one year, an unmanned aircraft is designed and built to compete against o
       <div className="image-c">
         <img
           src={Sih}
-          alt="Image"
+          alt="Image1"
           className="responsive-image"
         />
       </div>  
     </div>
 
-    <div className="container" style={{ marginTop: '20px' }}>
+    <div className="container-c" style={{ marginTop: '20px' }}>
       <div className="image-c">
         <img
           src={Youth}
-          alt="Image"
+          alt="Image1"
           className="responsive-image"
+          style={{maxwidth: '100%',
+            width: 'auto', height:'500px'}}
         />
       </div>  
       <div className="text">
@@ -67,7 +74,12 @@ Within one year, an unmanned aircraft is designed and built to compete against o
         <p>The Youth Conclave is an initiative of the Indian National Academy of Engineering, In which engineering students from all over the country and INAE Fellows participated in the deliberation. The Competition requires student groups to prepare a complete report on the problem statement chosen by them and to arrive at a detailed case study with a well-developed strategy to solve the problem.</p>
       </div>
     </div>
-    </>
+
+    
+
+    
+    </>    
+    
   )
 }
 
