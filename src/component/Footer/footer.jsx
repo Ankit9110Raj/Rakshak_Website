@@ -5,7 +5,7 @@ import { Facebook, Instagram, YouTube,LinkedIn } from "@mui/icons-material";
 import { Box } from "@mui/material";
 
 const Dabba =styled(Box)`
-  background-color:rgb(10 100 100/30%);
+  background-color: lightblue;
   padding-top:6px;
 `
 
@@ -18,18 +18,21 @@ function Footer() {
             <Typography variant="h6" color="text.primary" gutterBottom>
               Address
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="black">
             IITB Rakshak Team Lab, Basement, Aero Annex Building, Academic Area, IIT Bombay, Powai, Mumbai, 400076
             </Typography>
           </Grid>
-          <Grid item xs={12} sm={4}>
-          
+
+
+          <Grid item xs={12} sm={4} style={{ paddingLeft: '40px' }}>
             <Typography variant="h6" color="text.primary" gutterBottom>
               Company
             </Typography>
+            <Link to="./home">
             <Typography variant="body2" color="text.secondary">
              HOME
             </Typography>
+            </Link>
             <Typography variant="body2" color="text.secondary">
               PLANES
             </Typography>
@@ -42,8 +45,9 @@ function Footer() {
             <Typography variant="body2" color="text.secondary">
               SUBSYSTEM
             </Typography>
-            
           </Grid>
+
+
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" color="text.primary" gutterBottom>
               Follow Us

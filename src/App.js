@@ -13,6 +13,7 @@ import Controls from './component/pages/Controls';
 import Marketing from'./component/pages/Marketing';
 import Footer  from './component/Footer/footer';
 import Team from './component/pages/Team';
+import Blog from './component/pages/Blog';
 function App() {
   return (
     <>
@@ -27,6 +28,7 @@ function App() {
     <Route path='/contactus' element={<Contact/>}/>
     <Route path='/competitions' element={<Competition/>}/>
     <Route path='/teams' element={<Team/>}/>
+    <Route path='/blogs' element={<Blog/>}/>
     <Route path='/subsystems/aero' element={<Aero/>}/>
     <Route path='/subsystems/software' element={<Software/>}/>
     <Route path='/subsystems/controls' element={<Controls/>}/>

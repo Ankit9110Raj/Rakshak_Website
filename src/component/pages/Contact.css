@@ -1,225 +1,56 @@
-.contact-h{
-  display: flex;
-  justify-content: center;  
-}
-
-.c-heading{
-    text-align: center; 
-    font-weight: 600;
-    font-size: 3vw;
-}
-
-
-
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
-.App {
-  text-align: center;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 20px 0;
-}
-
-
+/* Default styles for larger screens */
 .social-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-  height: 100vh; 
   text-align: center;
 }
-
 
 .social-links {
   list-style: none;
   padding: 0;
-  margin: 0;
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  
+  justify-content: center;
 }
-
 
 .social-links li {
-  margin: 10px;
+  margin: 0 10px;
 }
 
+.social{
+ color: black;
+ font-size: xx-large;
+ @media (max-width: 768px) {
+  font-size:medium;
+}
 
+}
+
+/* Responsive styles for smaller screens */
 @media (max-width: 768px) {
-  
   .social-links {
     flex-direction: column;
+  }
+
+  .social-links li {
+    margin: 10px 0;
     text-align: center;
   }
 }
 
+
+
+/* contact.css */
+.row {
+  margin: 0; /* Remove default margin on rows */
+}
+
 .mapsection {
-  width: 40%;
-  max-width: 100%;
-  padding-left: 7%;
-  border-radius: 5px;
-  
-}
-
-/* Adjust the styles for smaller screens */
-@media (max-width: 768px) {
-  .mapsection {
-    width: 100%; /* Full width for smaller screens */
-    max-width: none; /* Remove the maximum width for smaller screens */
-  }
-}
-
-
-
-
-
-
-
-
-/* Contact.css */
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px; /* Add some margin between the rows */
-  padding: 0 25%;
-}
-
-.email-contact,
-.call-contact {
-  display: flex;
-  align-items: center;
-}
-
-.call-contact {
-  margin-left: 20px; /* Add some margin between the sections */
-  display: flex;
-  align-items: center; 
-
-}
-
-.call-contact p {
-  margin-left: 10px; 
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .call-contact {
-    margin-left: 0; /* Remove margin for small screens */
-    margin-top: 10px; /* Add some margin on top for small screens */
-  }
-}
-
-Form {
-  border: 1px solid lightgray;
+  display:flex;
+  width: 500px;
   border-radius: 10px;
-  padding: 20px;
-}
-.formc{
-  text-align: center;
-  max-width: 300px;
-  margin: 20px auto;
-  text-align: center;
-}
-.formc {
-  flex: 1; /* Take up remaining space */
 }
 
-@media (min-width: 768px) {
-  .containerc {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .formc{
-    flex: 2; /* Make it twice as wide as map section */
-  }
+.map{
+  border-radius: 10px;
 }
-.containerc {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-
-/* Add the following styles to your CSS file (e.g., styles.css) */
-
-.contact-form {
-  max-width: 500px; /* Increase the maximum width */
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  height: 361px; /* Set the height */
-  overflow-y: auto; /* Add scroll if the content exceeds the height */
-}
-
-.contact-form h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.contact-form .form-group {
-  margin-bottom: 15px;
-}
-
-.contact-form .form-group label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.contact-form .form-group input,
-.contact-form .form-group textarea {
-  width: calc(100% - 20px); /* Adjust the width of input and textarea */
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-.contact-form .form-group textarea {
-  height: calc(100% - 120px);
-}
-
-.contact-form button {
-  display: block;
-  width: 100%;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.contact-form button:hover {
-  background-color: #45a049;
-}
-
-  
-
-
-
-
-
 
 
 

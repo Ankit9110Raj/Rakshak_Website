@@ -65,7 +65,7 @@ const Competition = () => {
           alt="Image1"
           className="responsive-image"
           style={{maxwidth: '100%',
-            width: 'auto', height:'500px'}}
+            width: 'auto', height:'340px'}}
         />
       </div>  
       <div className="text">

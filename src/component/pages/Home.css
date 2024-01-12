@@ -22,81 +22,58 @@ body {
     }
 }
 
-
-
-
-
-
-
-
   
 
 
-
-  
-.centered-container-home {
-  /*background-image: url('background1.jpeg'); */
-  
-  padding: 20px; /* Add padding for spacing if needed */
+.centered-container-home-tag{
+  padding: 20px; 
   text-align: center;
-  color: black; /* Adjust text color for better readability */
-}
-
-.paragraph-container-home {
-  background-image: url('background1.jpeg'); 
-  background-size: cover;
-  background-position: center;
-  padding: 20px; /* Add padding for spacing if needed */
-  color: black; /* Adjust text color for better readability */
-  padding-left: 150px;
-  padding-right: 150px;
-  text-align: center;
- 
-
-}
-
-.about {
-  font-size: 36px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 20px;
-  animation: slideIn 0.5s ease forwards;
-  opacity: 0; 
-
-
-}
-
-.heading-t {
-  font-size: 6vw; 
-}
-.tagline{
-  font-size: 2vw;
-  font-style: italic;
-  animation: slideIn 0.5s ease forwards;
-  opacity: 0; 
-}
-
-.centered-container-home p {
-  margin: 10px 0; /* Adjust margin to reduce space between paragraphs */
-}
-
-.responsive-paragraph {
-  font-size: 20px;
-  animation: slideIn 0.5s ease forwards;
-  opacity: 0; 
-}
-
-/* Make it responsive */
-@media (max-width: 768px) {
-  .centered-container-home {
-      padding: 10px;
-  }
+  color: rgb(18, 16, 16); }
 
   .paragraph-container-home {
-      padding: 10px;
+    padding: 20px; 
+    color: black; 
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
   }
-}
 
+  .about {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    animation: slideIn 0.5s ease forwards;
+    opacity: 1; 
+
+  }
+
+  .tagline{
+    font-size: 2vw;
+    font-style: italic;
+    animation: slideIn 0.5s ease forwards;
+    opacity: 1; 
+  }
+
+  .centered-container-home-tag p {
+    margin: 10px 0; 
+  }
+
+  .responsive-paragraph {
+    font-size: 20px;
+    animation: slideIn 0.5s ease forwards;
+    opacity: 1; 
+  }
+
+  @media (max-width: 768px) {
+    .centered-container-home-tag {
+        padding: 10px;
+    }
+  
+    .paragraph-container-home {
+        padding: 10px;
+    }
+  }
 
   
 

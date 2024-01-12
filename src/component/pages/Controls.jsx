@@ -23,7 +23,7 @@ export default function Controls() {
                 cycleNavigation={true}
                 navButtonsProps={{
                     style: {
-                        background: "#fff",
+                        background: "lightblue",
                         color: "#494949",
                         borderRadius: 0,
                         marginTop: -22,
@@ -44,17 +44,17 @@ export default function Controls() {
     </Carousel>
     </div>
 
-    <p className='control-text'>
-      <p>
+    <p className='aero-text'>
+     
       The subsystem conducts regular tests for sensor calibration and adjusting the gains of the controller. The UAV is given various flight paths during the test to assess the performance of the UAV and accordingly modify the control parameters to achieve acceptable performance. The flight path is developed using path planning algorithms to avoid pre-identified obstacles. Communication is responsible for proper communication between plane & ground control station and interoperability, i.e., autonomous collection of mission plan data from a remote server and upload of collected data to the server.
-      </p>
+      
       <p>The aim of this subsystem is to achieve the following for the UAV:</p>
-      <p>
-      Autonomous Navigation - based on MAVLink protocol<br/>
+      <p className='highlight-aero'>
+      Autonomous Navigation - <span className='controls-text'>based on MAVLink protocol</span><br/>
       Autonomous Takeoff<br/>
       Autonomous Landing<br/>
-      Obstacle Avoidance - Stationary and Moving<br/>
-      Uninterrupted Communication - Communication between UAV and Ground Station, Server Communication
+      Obstacle Avoidance - <span className='controls-text'>Stationary and Moving</span><br/>
+      Uninterrupted Communication - <span className='controls-text'>Communication between UAV and Ground Station, Server Communication</span>
       </p>
     </p>
     </>

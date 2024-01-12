@@ -44,12 +44,13 @@ export default function Software() {
     </div>
 
     <p className='soft-text'>
-      <p>The Software subsystem is responsible for the onboard processing and analysis of the images collected during the mission. This includes identifying the potential targets, classifying them and geotagging them for future purpose.</p>
+      The Software subsystem is responsible for the onboard processing and analysis of the images collected during the mission. This includes identifying the potential targets, classifying them and geotagging them for future purpose.
+      
+      <p className='heading-software'>The subsystem is categorised into:</p>
+      <p className='software-text'> <span className='highlight-soft'>Object detection and Classification </span>- Identifying the potential targets and classifying them with precision. The identified objects are then geotagged.</p>
+      <p className='software-text'> <span className='highlight-soft'>Interoperability </span>- Responsible for autonomous update of detected targets to the server</p>
+      <p className='software-text'><span className='highlight-soft'>Mapping </span>- Responsible for generating the map of the surveyed regions during the mission.</p>
       </p>
-      <p>The subsystem is categorised into:</p>
-      <p>Object detection and Classification- Identifying the potential targets and classifying them with precision. The identified objects are then geotagged.</p>
-      <p>Interoperability - Responsible for autonomous update of detected targets to the server</p>
-      <p>Mapping - Responsible for generating the map of the surveyed regions during the mission.</p>
     </>
   )
 }
