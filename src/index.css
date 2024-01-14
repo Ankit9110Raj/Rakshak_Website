@@ -5,8 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  background-color: aqua;
+   
+    background-size: cover; /* Adjust as needed */
+    background-position: center center; /* Adjust as needed */
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */  
 }
 
 code {

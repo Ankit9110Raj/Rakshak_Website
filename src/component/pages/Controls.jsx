@@ -13,7 +13,7 @@ const data = [Control1,Control2,Control3,Control4]
 export default function Controls() {
   return (
     <>
-    <div className='carasousel-controls'>
+    <div className='carasousel-subsystem'>
     <Carousel
         className="carasousel"
                 autoPlay={true}

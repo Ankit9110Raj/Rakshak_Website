@@ -15,7 +15,7 @@ const data = [
 export default function Aero() {
   return (
     <>
-    <div className='carasousel-aero'>
+    <div className='carasousel-subsystem'>
     <Carousel
         className="carasousel"
                 autoPlay={true}

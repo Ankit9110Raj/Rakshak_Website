@@ -10,17 +10,17 @@ const data = [
     "https://rukminim1.flixcart.com/flap/1680/280/image/685712c6cefb3c02.jpg?q=50"
 ]
 
-const backgroundStyle = {
+/*const backgroundStyle = {
   backgroundImage: `url(${require('./background1.jpeg')})`, 
   backgroundSize: 'cover', 
   backgroundRepeat: 'no-repeat', 
   backgroundAttachment: 'fixed', 
-};
+};*/
 
 
 const Home = () =>{
   return (
-    <div className="Apps" style={backgroundStyle}>
+    <div className="Apps" >
     <Carousel
         className="carasousel"
                 autoPlay={true}

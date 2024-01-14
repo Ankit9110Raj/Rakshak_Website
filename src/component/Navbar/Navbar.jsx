@@ -471,7 +471,53 @@ export default function ButtonAppBar() {
                       horizontal: 'left',
                     }}
                   >
-                    {/* ... (existing code for Drawer items) */}
+                   
+
+
+                   <MenuItem onClick={handleClose}
+                       style={{
+                        display: 'flex',
+                        justifyContent: 'center', // Center horizontally
+                        alignItems: 'center', // Center vertically
+                        minWidth: '200px', // Adjust menu item width as needed
+                      }}>
+                        <Link to="/subsystems/aero" style={{ textDecoration: 'none',...buttonStyles }}>
+                          Aerodynamics & Manufacturing
+                        </Link>
+                      </MenuItem>
+                      <MenuItem onClick={handleClose}
+                       style={{
+                        display: 'flex',
+                        justifyContent: 'center', // Center horizontally
+                        alignItems: 'center', // Center vertically
+                        minWidth: '200px', // Adjust menu item width as needed
+                      }}>
+                        <Link to="/subsystems/software" style={{ textDecoration: 'none', ...buttonStyles }}>
+                          Software
+                        </Link>
+                      </MenuItem>
+                      <MenuItem onClick={handleClose}
+                       style={{
+                        display: 'flex',
+                        justifyContent: 'center', // Center horizontally
+                        alignItems: 'center', // Center vertically
+                        minWidth: '200px', // Adjust menu item width as needed
+                      }}>
+                        <Link to="/subsystems/controls" style={{ textDecoration: 'none',...buttonStyles }}>
+                          Controls and Communication
+                        </Link>
+                      </MenuItem>
+                      <MenuItem onClick={handleClose}
+                       style={{
+                        display: 'flex',
+                        justifyContent: 'center', // Center horizontally
+                        alignItems: 'center', // Center vertically
+                        minWidth: '200px', // Adjust menu item width as needed
+                      }}>
+                        <Link to="/subsystems/marketing" style={{ textDecoration: 'none', ...buttonStyles }}>
+                          Marketing
+                        </Link>
+                      </MenuItem>
                   </Menu>
                 </div>
               );

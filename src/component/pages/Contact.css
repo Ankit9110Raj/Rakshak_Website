@@ -52,6 +52,29 @@
   border-radius: 10px;
 }
 
+.card{
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  justify-content: center;
+  
+}
+
+.cardstyle{
+  width: 18rem;
+  border: 1px solid #e0e0e0; 
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 200px;
+  border-radius:5px;
+  margin: 10px;
+  
+}
+
 
 
 

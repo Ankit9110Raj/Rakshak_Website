@@ -1,9 +1,13 @@
-.carasousel-aero{
+.carasousel-subsystem{
     padding-left: 20%;
     padding-right: 20%;
     width: 100%;
     height: 40%;
     margin-top: 50px;
+    @media (max-width: 768px) {
+        padding-left: 2%;
+        padding-right: 2%;
+      }
 }
 .highlight-aero{
     font-weight: 600;
@@ -14,40 +18,14 @@
     padding-left: 20%;
     padding-right: 20%;
     font-weight: 600;
+    @media (max-width: 768px) {
+        padding-left: 2%;
+        padding-right: 2%;
+      }
+
+
 }
 .aerotext{
-    margin-top: 20px
-}
-
-.carasousel-soft{
-    padding-left: 20%;
-    padding-right: 20%;
-    width: 100%;
-    height: 40%;
-    margin-top: 50px;
-}
-.carasousel-controls{
-    padding-left: 20%;
-    padding-right: 20%;
-    width: 100%;
-    height: 40%;
-    margin-top: 50px;
-}
-
-.soft-text{
-    margin-top: 40px;
-    padding-left: 20%;
-    padding-right: 20%;
-    font-weight: 600;
-    justify-content: center;
-}
-
-.highlight-soft{
-    font-weight: 600;
-    color: blue;
-}
-
-.software-text{
     margin-top: 20px
 }
 

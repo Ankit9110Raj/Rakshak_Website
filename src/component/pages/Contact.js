@@ -342,8 +342,19 @@ import "./Contact.css";
 import 'font-awesome/css/font-awesome.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelope, faLocationDot} from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
+import logos from '../../images/logo4.jpeg';
+import {
+  CCard,
+  CCardImage,
+  CCardBody,
+  CCardText,
+  CCardTitle,
+  CCol,
+  CRow
+
+} from '@coreui/react';
 
 const Contact = () => {
   const form = useRef();
@@ -371,6 +382,39 @@ const Contact = () => {
 
   return (
     <>
+    <div className="card">
+      <CCard className="cardstyle">
+      <FontAwesomeIcon icon={faPhone} size='4x' style={{ color: 'blue' }}/>
+      <h3>Call Us</h3>
+      <CCardBody>
+      <CCardText>
+      <p><span>Vice-President: 91-9110112945</span></p>
+      <p><span>President:91-9110112945</span></p>
+      </CCardText>
+      </CCardBody>
+      </CCard>
+
+      <CCard  className="cardstyle" >
+      <FontAwesomeIcon icon={faEnvelope} size='4x' style={{ color: 'blue', paddingBottom:'20px' }}/>
+      <h3 >Email</h3>
+      <CCardBody>
+      <CCardText>
+      <p style={{ paddingBottom:'30px' }}>rakshak.uavs@gmail.com</p>
+      </CCardText>
+      </CCardBody>
+      </CCard>
+
+      <CCard className="cardstyle" >
+      <FontAwesomeIcon icon={faLocationDot} size='4x' style={{ color: 'blue' }}/>
+      <h3>Our Address</h3>
+      <CCardBody>
+      <CCardText>
+      <p>IITB Rakshak Team Lab, Basement, Aero Annex Building, Academic Area, IIT Bombay, Powai, Mumbai, 400076</p>
+      </CCardText>
+      </CCardBody>
+      </CCard>
+      </div>
+
       <StyledContainer>
         <StyledContactForm>
           <h2>Contact Us</h2>
@@ -394,7 +438,7 @@ const Contact = () => {
             loading='lazy'
             title="Google Map"
           ></iframe>
-        </StyledMapSection>ˀ
+        </StyledMapSection>
       </StyledContainer>
 
       <div className='social-container'>

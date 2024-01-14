@@ -10,7 +10,7 @@ const data = [
 export default function Marketing() {
   return (
     <>
-    <div className='carasousel-aero'>
+    <div className='carasousel-subsystem'>
     <Carousel
         className="carasousel"
                 autoPlay={true}
