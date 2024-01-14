@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Rakshak_Website/static/css/main.5c21eabe.css",
+    "main.js": "/Rakshak_Website/static/js/main.eb4cc0dd.js",
+    "static/js/787.9d05b033.chunk.js": "/Rakshak_Website/static/js/787.9d05b033.chunk.js",
+    "static/media/plane.jpg": "/Rakshak_Website/static/media/plane.2386367bc93d0b901d87.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Rakshak_Website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/auvsi.gif": "/Rakshak_Website/static/media/auvsi.dd16a662c02150e1e50f.gif",
+    "static/media/fontawesome-webfont.eot": "/Rakshak_Website/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Rakshak_Website/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/controls4.png": "/Rakshak_Website/static/media/controls4.f2fe2e127c77175923c5.png",
+    "static/media/skywalker.jpg": "/Rakshak_Website/static/media/skywalker.0ffcd7d1e4c913109663.jpg",
+    "static/media/saeplane.jpeg": "/Rakshak_Website/static/media/saeplane.e3933537ae971e8814e9.jpeg",
+    "static/media/sandy.jpeg": "/Rakshak_Website/static/media/sandy.4c139c7bd121f864713b.jpeg",
+    "static/media/logo4.jpeg": "/Rakshak_Website/static/media/logo4.7b07f986feea92557b00.jpeg",
+    "static/media/Youth.gif": "/Rakshak_Website/static/media/Youth.523b448ca9da1dcbc08f.gif",
+    "static/media/smokey.jpeg": "/Rakshak_Website/static/media/smokey.15734f35f19d0847bfae.jpeg",
+    "static/media/marketing1.jpeg": "/Rakshak_Website/static/media/marketing1.90a4e2a8b0ed88604cae.jpeg",
+    "static/media/sandy2.0.jpeg": "/Rakshak_Website/static/media/sandy2.0.5a4473ee5f70699b2e83.jpeg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Rakshak_Website/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/aero1.jpeg": "/Rakshak_Website/static/media/aero1.cd89ae8571dcfc84147e.jpeg",
+    "static/media/sih.gif": "/Rakshak_Website/static/media/sih.755a82cae30bc7c27ccc.gif",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Rakshak_Website/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/sunidhi.jpeg": "/Rakshak_Website/static/media/sunidhi.035682625c591ab17b9d.jpeg",
+    "static/media/controls1.jpeg": "/Rakshak_Website/static/media/controls1.be18b29aca7328af8176.jpeg",
+    "static/media/aero2.png": "/Rakshak_Website/static/media/aero2.1f92e887f9c653f4fad7.png",
+    "static/media/background2.jpeg": "/Rakshak_Website/static/media/background2.80b05593116dd5a01eca.jpeg",
+    "static/media/aero3.png": "/Rakshak_Website/static/media/aero3.d7efcd2c7cea40e11745.png",
+    "static/media/aero4.png": "/Rakshak_Website/static/media/aero4.42dbd8d72d081bcb893a.png",
+    "static/media/controls3.png": "/Rakshak_Website/static/media/controls3.6379f8fc66e0ac8b8420.png",
+    "static/media/controls2.png": "/Rakshak_Website/static/media/controls2.45f3c9034dd6aff6939c.png",
+    "index.html": "/Rakshak_Website/index.html",
+    "main.5c21eabe.css.map": "/Rakshak_Website/static/css/main.5c21eabe.css.map",
+    "main.eb4cc0dd.js.map": "/Rakshak_Website/static/js/main.eb4cc0dd.js.map",
+    "787.9d05b033.chunk.js.map": "/Rakshak_Website/static/js/787.9d05b033.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c21eabe.css",
+    "static/js/main.eb4cc0dd.js"
+  ]
+}
