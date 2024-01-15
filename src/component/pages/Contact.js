@@ -489,6 +489,12 @@ const StyledContainer = styled.div`
     padding-left:0px;
     padding-right:0px;
   }
+
+  @media (max-width: 1024px) {
+    
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 `;
 
 const StyledContactForm = styled.div`
