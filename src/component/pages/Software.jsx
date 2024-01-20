@@ -117,15 +117,15 @@ export default function Aero() {
     </Carousel>
     </div>
     <p className='aero-text'>
-    From conceptual design to building the large plane number of tasks are completed by the aerodynamics subsystem. Aerodynamics and manufacturing subsystem can be further subdivided into the following groups:
+    The Software subsystem is responsible for the onboard processing and analysis of the images collected during the mission. This includes identifying the potential targets, classifying them and geotagging them for future purpose.
      <p className='aerotext'>
-    <span className="highlight-aero">Aerodynamics: </span>All the CFD analysis required to meet the given performance requirements is carried out.</p>
+    <span className="highlight-aero">The subsystem is categorised into </span>:</p>
 
-    <p className='aerotext'><span className="highlight-aero">Structures: </span>CAD modelling and structural analysis of the plane body is done in this group.</p>
+    <p className='aerotext'><span className="highlight-aero">Object detection and Classification: </span>Identifying the potential targets and classifying them with precision. The identified objects are then geotagged.</p>
 
-   <p className='aerotext'> <span className="highlight-aero">Payload:</span> Designing the payload deployment mechanism for the precise delivery of the freight.</p>
+   <p className='aerotext'> <span className="highlight-aero">Interoperability:</span> Responsible for autonomous update of detected targets to the server</p>
 
-    <p className='aerotext'> <span className="highlight-aero">UGV: </span>Development of an unmanned ground vehicle to be deployed as a payload to carry the necessary goods to the exact location on the map.</p>
+    <p className='aerotext'> <span className="highlight-aero">Mapping: </span>Responsible for generating the map of the surveyed regions during the mission.</p>
     </p>
     </>
   )

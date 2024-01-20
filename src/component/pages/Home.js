@@ -1,14 +1,15 @@
 import React from 'react';
 import Carousel from 'react-material-ui-carousel';
 import './Home.css';
+import Navbar from '/Users/ankitraj/Desktop/Coding world/React js/rakshak/src/component/Navbar/Navbar.jsx'; 
 //import background1 from "../../images/background1.jpeg";
+import caro1 from "../../images/Competition 2022 team photo with plane.jpg"
 
 const data = [
-    "https://rukminim1.flixcart.com/flap/1680/280/image/1defb861e409319b.jpg?q=50",
-    " https://rukminim1.flixcart.com/flap/1680/280/image/685712c6cefb3c02.jpg?q=50",
-    "https://rukminim1.flixcart.com/flap/1680/280/image/8d4150cc4f3f967d.jpg?q=50",
-    "https://rukminim1.flixcart.com/flap/1680/280/image/685712c6cefb3c02.jpg?q=50"
-]
+    caro1
+];
+
+
 
 /*const backgroundStyle = {
   backgroundImage: `url(${require('./background1.jpeg')})`, 
@@ -21,6 +22,7 @@ const data = [
 const Home = () =>{
   return (
     <div className="Apps" >
+      
     <Carousel
         className="carasousel"
                 autoPlay={true}
@@ -33,7 +35,7 @@ const Home = () =>{
                         background: "#fff",
                         color: "#494949",
                         borderRadius:50,
-                        marginTop: -22,
+                        marginTop: '-52px',
                         height: "104px",
                     }
                 }}>
