@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Rakshak_Website/static/css/main.7004e3de.css",
-    "main.js": "/Rakshak_Website/static/js/main.f0b8245d.js",
+    "main.css": "/Rakshak_Website/static/css/main.21e0f51b.css",
+    "main.js": "/Rakshak_Website/static/js/main.7c6b9ae3.js",
     "static/js/787.9d05b033.chunk.js": "/Rakshak_Website/static/js/787.9d05b033.chunk.js",
     "static/media/plane.jpg": "/Rakshak_Website/static/media/plane.2386367bc93d0b901d87.jpg",
+    "static/media/Competition 2022 team photo with plane.jpg": "/Rakshak_Website/static/media/Competition 2022 team photo with plane.9cff260f4754c770058e.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Rakshak_Website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/auvsi.gif": "/Rakshak_Website/static/media/auvsi.dd16a662c02150e1e50f.gif",
     "static/media/fontawesome-webfont.eot": "/Rakshak_Website/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -30,12 +31,12 @@
     "static/media/controls3.png": "/Rakshak_Website/static/media/controls3.6379f8fc66e0ac8b8420.png",
     "static/media/controls2.png": "/Rakshak_Website/static/media/controls2.45f3c9034dd6aff6939c.png",
     "index.html": "/Rakshak_Website/index.html",
-    "main.7004e3de.css.map": "/Rakshak_Website/static/css/main.7004e3de.css.map",
-    "main.f0b8245d.js.map": "/Rakshak_Website/static/js/main.f0b8245d.js.map",
+    "main.21e0f51b.css.map": "/Rakshak_Website/static/css/main.21e0f51b.css.map",
+    "main.7c6b9ae3.js.map": "/Rakshak_Website/static/js/main.7c6b9ae3.js.map",
     "787.9d05b033.chunk.js.map": "/Rakshak_Website/static/js/787.9d05b033.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7004e3de.css",
-    "static/js/main.f0b8245d.js"
+    "static/css/main.21e0f51b.css",
+    "static/js/main.7c6b9ae3.js"
   ]
 }
