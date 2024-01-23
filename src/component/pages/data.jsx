@@ -1,5 +1,65 @@
 
 import sunidhiImage from '../../images/sunidhi.jpeg';
+import aerodynamics1 from '../../images/Ripudaman Singh Shekhawat.png';
+import aerodynamics2 from '../../images/Disha Gupta.jpg';
+import aerodynamics3 from '../../images/VRAJ KANUBHAI PATEL.jpeg';
+import aerodynamics4 from '../../images/Vighnesh JR.jpeg';
+import aerodynamics5 from '../../images/Yashvi Bhuva.jpg';
+import aerodynamics6 from '../../images/Sourabh Chouhan.jpg';
+import aerodynamics7 from '../../images/Achintya Agrawal.jpg';
+import aerodynamics8 from '../../images/Advait S.jpg';
+import aerodynamics9 from '../../images/Parul Diwan.jpg';
+import aerodynamics10 from '../../images/Prateek sharma.jpg';
+import aerodynamics11 from '../../images/Abhishek Kumar.png';
+import aerodynamics12 from '../../images/ Kanak Dudi.jpg'
+import aerodynamics13 from '../../images/Krishna Kumar.jpeg';
+import aerodynamics14 from '../../images/ Kanak Dudi.jpg';
+
+import business1 from '../../images/sunidhi.jpeg';
+import business2 from '../../images/ Ayush Shegokar.jpg';
+import business3 from '../../images/Aagam Shah.jpg';
+import business4 from '../../images/RONIT TRIPATHY.jpeg';
+import business5 from '../../images/Radhika Life.jpg';
+import business6 from '../../images/Nisarg Dixit.jpg';
+import business7 from '../../images/Pratiek Sonare.png';
+import business8 from '../../images/ Kaustav Saha.jpeg';
+
+import avionics1 from '../../images/Aryank Banoth.jpg';
+import avionics2 from '../../images/ samar agarwal.jpg';
+import avionics3 from '../../images/shreyas - S nB.jpg';
+import avionics4 from '../../images/Satyajeet Das.png';
+import avionics5 from '../../images/Anjali Antil.jpeg';
+import avionics6 from '../../images/Jahnvee Tailor.jpg';
+import avionics7 from '../../images/Harsh Raj Chaudhari.jpg';
+import avionics8 from '../../images/Raghav Sapre.png';
+import avionics9 from '../../images/Altra Z.jpg';
+import avionics10 from '../../images/Saurabh Gupta.jpg';
+import avionics11 from '../../images/Ghoshank Nanhe.jpg';
+import avionics12 from '../../images/Nikhil Jha.jpg';
+import avionics13 from '../../images/ yug agarwal.jpeg';
+import avionics14 from '../../images/Lakshya Gadhwal.jpg';
+import avionics15 from '../../images/Soham Joshi.jpg';
+
+import software1 from '../../images/Pranav Singla.jpg';
+import software2 from '../../images/ Utsav Desai.jpg';
+import software3 from '../../images/ Aanant.jpg';
+import software4 from '../../images/ Jaideep Chandra Tipparthi.jpg';
+import software5 from '../../images/sumit londhe.jpg';
+import software6 from '../../images/Prajyot Pandit Chakre.jpg';
+import software7 from '../../images/N Gurupoorna.png';
+import software8 from '../../images/Jai Priyadarshi.jpg';
+import software9 from '../../images/Masada Jaswanthi.jpg';
+import software10 from '../../images/Shardul Kolekar.jpg';
+import software11 from '../../images/ PRANAV MANIYAR.jpg';
+import software12 from '../../images/Shruti Ghoniya.jpg';
+
+import teamlead1 from '../../images/Harsh Neema.jpg';
+import teamlead2 from '../../images/abhishek.png';
+import teamlead3 from '../../images/sanskar maddi.jpeg';
+
+
+
+
 
 
 const item=[
@@ -26,7 +86,7 @@ const item=[
         id:3,
         title:'Niranjan Verma',
         category: "Team Lead",
-        img:sunidhiImage,
+        img:teamlead1,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -35,7 +95,7 @@ const item=[
         id:4,
         title:'Niranjan Verma',
         category: "Team Lead",
-        img:sunidhiImage,
+        img:teamlead2,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -44,7 +104,7 @@ const item=[
         id:5,
         title:'Niranjan Verma',
         category: "Team Lead",
-        img:sunidhiImage,
+        img:teamlead3,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -54,7 +114,7 @@ const item=[
         id:6,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics1,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -63,7 +123,7 @@ const item=[
         id:7,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics2,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -72,7 +132,7 @@ const item=[
         id:8,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics3,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -81,7 +141,7 @@ const item=[
         id:9,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics4,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -90,7 +150,7 @@ const item=[
         id:10,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics5,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -99,7 +159,7 @@ const item=[
         id:11,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics6,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -108,7 +168,7 @@ const item=[
         id:12,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics7,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -117,7 +177,7 @@ const item=[
         id:13,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics8,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -126,7 +186,7 @@ const item=[
         id:14,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics9,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -135,7 +195,7 @@ const item=[
         id:15,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics10,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -144,7 +204,7 @@ const item=[
         id:16,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics11,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -153,7 +213,7 @@ const item=[
         id:17,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics12,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -162,7 +222,7 @@ const item=[
         id:18,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics13,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -171,7 +231,7 @@ const item=[
         id:19,
         title:'Ashutosh Bharti',
         category: "Avionics",
-        img:sunidhiImage,
+        img:avionics14,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -181,7 +241,7 @@ const item=[
         id:20,
         title:'Aditya Umate',
         category: "Software",
-        img:sunidhiImage,
+        img:software1,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -190,7 +250,7 @@ const item=[
         id:21,
         title:'Aditya Umate',
         category: "Software",
-        img:sunidhiImage,
+        img:software2,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -199,7 +259,7 @@ const item=[
         id:22,
         title:'Aditya Umate',
         category: "Software",
-        img:sunidhiImage,
+        img:software3,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -208,7 +268,7 @@ const item=[
         id:23,
         title:'Aditya Umate',
         category: "Software",
-        img:sunidhiImage,
+        img:software4,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -217,7 +277,7 @@ const item=[
         id:24,
         title:'Aditya Umate',
         category: "Software",
-        img:sunidhiImage,
+        img:software5,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -226,7 +286,7 @@ const item=[
         id:25,
         title:'Aditya Umate',
         category: "Software",
-        img:sunidhiImage,
+        img:software6,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -235,7 +295,7 @@ const item=[
         id:26,
         title:'Aditya Umate',
         category: "Software",
-        img:sunidhiImage,
+        img:software7,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -244,7 +304,7 @@ const item=[
         id:27,
         title:'Aditya Umate',
         category: "Software",
-        img:sunidhiImage,
+        img:software8,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -253,7 +313,7 @@ const item=[
         id:28,
         title:'Aditya Umate',
         category: "Software",
-        img:sunidhiImage,
+        img:software9,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -264,7 +324,7 @@ const item=[
         id:29,
         title:'Aditya Umate',
         category: "Software",
-        img:sunidhiImage,
+        img:software10,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -273,7 +333,7 @@ const item=[
         id:30,
         title:'Aditya Umate',
         category: "Software",
-        img:sunidhiImage,
+        img:software11,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -282,7 +342,7 @@ const item=[
         id:31,
         title:'Aditya Umate',
         category: "Software",
-        img:sunidhiImage,
+        img:software12,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -290,8 +350,8 @@ const item=[
     {
         id:32,
         title:'Aditya Umate',
-        category: "Software",
-        img:sunidhiImage,
+        category: "Avionics",
+        img:avionics15,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -326,9 +386,9 @@ const item=[
 
     {
         id:36,
-        title:'Dhruv Pandey',
+        title:'Ripudaman Singh',
         category: "Aerodynamics",
-        img:sunidhiImage,
+        img:aerodynamics1,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -337,7 +397,7 @@ const item=[
         id:37,
         title:'Dhruv Pandey',
         category: "Aerodynamics",
-        img:sunidhiImage,
+        img:aerodynamics2,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -346,7 +406,7 @@ const item=[
         id:38,
         title:'Dhruv Pandey',
         category: "Aerodynamics",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:aerodynamics3,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -355,7 +415,7 @@ const item=[
         id:39,
         title:'Dhruv Pandey',
         category: "Aerodynamics",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:aerodynamics4,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -364,7 +424,7 @@ const item=[
         id:40,
         title:'Aryan Popal',
         category: "Aerodynamics",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:aerodynamics5,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -373,7 +433,7 @@ const item=[
         id:41,
         title:'Dhruv Pandey',
         category: "Aerodynamics",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:aerodynamics6,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -382,7 +442,7 @@ const item=[
         id:42,
         title:'Dhruv Pandey',
         category: "Aerodynamics",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:aerodynamics7,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -391,7 +451,7 @@ const item=[
         id:43,
         title:'Dhruv Pandey',
         category: "Aerodynamics",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:aerodynamics8,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -400,7 +460,7 @@ const item=[
         id:44,
         title:'Dhruv Pandey',
         category: "Aerodynamics",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:aerodynamics9,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -409,7 +469,7 @@ const item=[
         id:45,
         title:'Dhruv Pandey',
         category: "Aerodynamics",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:aerodynamics10,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -418,7 +478,7 @@ const item=[
         id:46,
         title:'Dhruv Pandey',
         category: "Aerodynamics",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:aerodynamics11,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -427,7 +487,7 @@ const item=[
         id:47,
         title:'Dhruv Pandey',
         category: "Aerodynamics",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:aerodynamics12,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -436,7 +496,7 @@ const item=[
         id:48,
         title:'Dhruv Pandey',
         category: "Aerodynamics",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:aerodynamics13,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -445,7 +505,7 @@ const item=[
         id:49,
         title:'Dhruv Pandey',
         category: "Aerodynamics",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:aerodynamics14,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -453,9 +513,9 @@ const item=[
     
     {
         id:50,
-        title:'Vinay Kushwaha',
+        title:'Sunidhi Rana',
         category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:business1,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -464,7 +524,7 @@ const item=[
         id:51,
         title:'Vinay Kushwaha',
         category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:business2,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -473,7 +533,7 @@ const item=[
         id:52,
         title:'Vinay Kushwaha',
         category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:business3,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -482,7 +542,7 @@ const item=[
         id:53,
         title:'Vinay Kushwaha',
         category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:business4,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -491,7 +551,7 @@ const item=[
         id:54,
         title:'Vinay Kushwaha',
         category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:business5,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -500,7 +560,7 @@ const item=[
         id:55,
         title:'Vinay Kushwaha',
         category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img: business6,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -509,7 +569,7 @@ const item=[
         id:56,
         title:'Vinay Kushwaha',
         category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:business7,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -518,7 +578,7 @@ const item=[
         id:57,
         title:'Vinay Kushwaha',
         category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:business8,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -527,7 +587,7 @@ const item=[
         id:58,
         title:'Vinay Kushwaha',
         category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:business8,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
@@ -536,37 +596,15 @@ const item=[
         id:59,
         title:'Vinay Kushwaha',
         category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        img:business1,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
-    },
+    }
 
-    {
-        id:60,
-        title:'Vinay Kushwaha',
-        category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        instagram:'https://www.instagram.com/me_niranjanv/',
-        linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
-    },
+    
 
-    {
-        id:61,
-        title:'Vinay Kushwaha',
-        category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        instagram:'https://www.instagram.com/me_niranjanv/',
-        linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
-    },
-
-    {
-        id:62,
-        title:'Vinay Kushwaha',
-        category: "Business",
-        img:'https://plus.unsplash.com/premium_photo-1683910767532-3a25b821f7ae?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        instagram:'https://www.instagram.com/me_niranjanv/',
-        linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
-    },
+    
+    
 
 ]
 

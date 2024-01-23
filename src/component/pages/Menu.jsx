@@ -13,7 +13,7 @@ const Menu = ({items}) => {
                             <img src={img} alt={title} className='photo'/>
                             <div className='item-info'>
                                 <header style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
-                                <h3 style={{margin:'auto'}}>{title}</h3>
+                                <h3 style={{margin:'auto', color:'white'}}>{title}</h3>
                                 {instagram && (
                   <a
                     href={instagram}

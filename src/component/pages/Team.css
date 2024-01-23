@@ -95,8 +95,8 @@ h2{
 
 .photo{
   object-fit: cover;
-  height: 200px;
-  width: 100%;
+  height: 250px;
+  width: 200px;
   display: block;
   border-radius: 8px;
   transition: transform 0.3s;
@@ -158,6 +158,7 @@ h2{
   margin-bottom: 20px;
   font-family: 'Festive',cursive;
   text-align: center;
+  color: aliceblue;
   
   /* Other styles for the selected category */
 }
