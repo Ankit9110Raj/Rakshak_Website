@@ -10,7 +10,7 @@ const Competition = () => {
   return (
     
     <>
-    <div className='competition'>Targated Competition</div>
+    <div className='competition'>Targeted Competition</div>
 
     <div className="container-c" style={{ marginTop: '20px' }}>
    <div className="text-even" >
@@ -34,8 +34,7 @@ const Competition = () => {
           src={Auvsi}
           alt="Image1"
           className="responsive-image"
-          style={{maxwidth: '100%',
-            width: 'auto', height:'500px'}}
+          
         />
       </div>  
       <div className="text">
@@ -64,8 +63,7 @@ const Competition = () => {
           src={Youth}
           alt="Image1"
           className="responsive-image"
-          style={{maxwidth: '100%',
-            width: 'auto', height:'340px'}}
+          
         />
       </div>  
       <div className="text">

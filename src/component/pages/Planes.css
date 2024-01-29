@@ -37,14 +37,28 @@
 }
 
 .responsive-image{
-  height: 100vh;
+  /*height: 100vh;
   background-size: cover;
+  width: 100%;
+  max-height: 100vh;
+  
+  @media(max-width: 768px) {
+    
+      width: 20%; /* Adjust the width as needed for larger screens 
+    
+  }*/
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
 }
 
-@media (max-width:768px){
-  .responsive-image{
-      object-fit: cover;
-      height: 100vh;
-  }
+.responsive-image-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
+
+
+
       

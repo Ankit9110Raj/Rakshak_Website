@@ -15,9 +15,9 @@ const data = [
 export default function Aero() {
   return (
     <>
-    <div className='carasousel-subsystem'>
+    
     <Carousel
-        className="carasousel"
+        className="carasousel-subsystem"
                 autoPlay={true}
                 animation="slide"
                 indicators={false}
@@ -37,14 +37,14 @@ export default function Aero() {
                     data.map((imag, i) => {
                         return (
                             <>
-                                <img src={imag} alt="img" key={i} className="banner_img" />
+                                <img src={imag} alt="img" key={i} className="bannerimg" />
                             </>
                         )
                     })
                 }
 
     </Carousel>
-    </div>
+    
     <p className='aero-text'>
     From conceptual design to building the large plane number of tasks are completed by the aerodynamics subsystem. Aerodynamics and manufacturing subsystem can be further subdivided into the following groups:
      <p className='aerotext'>

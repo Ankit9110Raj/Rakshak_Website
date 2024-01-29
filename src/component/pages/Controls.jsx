@@ -13,9 +13,9 @@ const data = [Control1,Control2,Control3,Control4]
 export default function Controls() {
   return (
     <>
-    <div className='carasousel-subsystem'>
+   
     <Carousel
-        className="carasousel"
+        className="carasousel-subsystem"
                 autoPlay={true}
                 animation="slide"
                 indicators={false}
@@ -35,14 +35,14 @@ export default function Controls() {
                     data.map((imag, i) => {
                         return (
                             <>
-                                <img src={imag} alt="img" key={i} className="banner_img" />
+                                <img src={imag} alt="img" key={i} className="bannerimg" />
                             </>
                         )
                     })
                 }
 
     </Carousel>
-    </div>
+   
 
     <p className='aero-text'>
      

@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-material-ui-carousel';
 import './Home.css';
-import Navbar from '/Users/ankitraj/Desktop/Coding world/React js/rakshak/src/component/Navbar/Navbar.jsx'; 
+
 //import background1 from "../../images/background1.jpeg";
 import caro1 from "../../images/Competition 2022 team photo with plane.jpg"
 
@@ -9,14 +9,6 @@ const data = [
     caro1
 ];
 
-
-
-/*const backgroundStyle = {
-  backgroundImage: `url(${require('./background1.jpeg')})`, 
-  backgroundSize: 'cover', 
-  backgroundRepeat: 'no-repeat', 
-  backgroundAttachment: 'fixed', 
-};*/
 
 
 const Home = () =>{

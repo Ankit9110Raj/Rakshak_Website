@@ -27,15 +27,19 @@
   }
   
   .image-c {
-    flex: 1;
-    max-width: 100%;
-    width: 80%;
     height: auto;
+    padding: inherit;
   }
   
   .responsive-image {
-    max-width: 100%;
-    height: auto;
+    width: 400px;
+    height: 400px;
+    @media (max-width: 768px) { 
+    /* margin: 0 auto;  */
+    display: block;
+    width: 350px;
+    height: 350px;
+    }
   }
   
   .text, .text-even {
@@ -43,6 +47,7 @@
     max-width: 100%;
     font-weight: 600;
     font-size: larger;
+    color: #f0f0f0;
   }
   
   @media (max-width: 1000px) {
@@ -69,7 +74,8 @@
     font-size: initial;
   }
   .image-c {
-    width: 100%; /* Full-width images for smaller screens */
+    width: 150%; 
+    /* padding: 0;Full-width images for smaller screens */
  }
   
  

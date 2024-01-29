@@ -86,9 +86,9 @@ const data = [
 export default function Aero() {
   return (
     <>
-    <div className='carasousel-subsystem'>
+   
     <Carousel
-        className="carasousel"
+        className="carasousel-subsystem"
                 autoPlay={true}
                 animation="slide"
                 indicators={false}
@@ -108,14 +108,14 @@ export default function Aero() {
                     data.map((imag, i) => {
                         return (
                             <>
-                                <img src={imag} alt="img" key={i} className="banner_img" />
+                                <img src={imag} alt="img" key={i} className="bannerimg" />
                             </>
                         )
                     })
                 }
 
     </Carousel>
-    </div>
+   
     <p className='aero-text'>
     The Software subsystem is responsible for the onboard processing and analysis of the images collected during the mission. This includes identifying the potential targets, classifying them and geotagging them for future purpose.
      <p className='aerotext'>
