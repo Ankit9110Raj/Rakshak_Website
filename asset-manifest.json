@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rakshak_Website/static/css/main.11bf12b3.css",
-    "main.js": "/Rakshak_Website/static/js/main.55700e79.js",
+    "main.css": "/Rakshak_Website/static/css/main.7e725271.css",
+    "main.js": "/Rakshak_Website/static/js/main.90561de8.js",
     "static/js/787.9d05b033.chunk.js": "/Rakshak_Website/static/js/787.9d05b033.chunk.js",
     "static/media/ Aanant.jpg": "/Rakshak_Website/static/media/ Aanant.994709404486539fa52b.jpg",
     "static/media/Ripudaman Singh Shekhawat.png": "/Rakshak_Website/static/media/Ripudaman Singh Shekhawat.e8983ab093f754cd0ebf.png",
@@ -81,12 +81,12 @@
     "static/media/ PRANAV MANIYAR.jpg": "/Rakshak_Website/static/media/ PRANAV MANIYAR.e5ca7420a7c944abb26f.jpg",
     "static/media/controls2.png": "/Rakshak_Website/static/media/controls2.45f3c9034dd6aff6939c.png",
     "index.html": "/Rakshak_Website/index.html",
-    "main.11bf12b3.css.map": "/Rakshak_Website/static/css/main.11bf12b3.css.map",
-    "main.55700e79.js.map": "/Rakshak_Website/static/js/main.55700e79.js.map",
+    "main.7e725271.css.map": "/Rakshak_Website/static/css/main.7e725271.css.map",
+    "main.90561de8.js.map": "/Rakshak_Website/static/js/main.90561de8.js.map",
     "787.9d05b033.chunk.js.map": "/Rakshak_Website/static/js/787.9d05b033.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11bf12b3.css",
-    "static/js/main.55700e79.js"
+    "static/css/main.7e725271.css",
+    "static/js/main.90561de8.js"
   ]
 }
