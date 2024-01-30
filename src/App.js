@@ -13,7 +13,7 @@ import Controls from './component/pages/Controls';
 import Marketing from'./component/pages/Marketing';
 import Footer  from './component/Footer/footer';
 import Team from './component/pages/Team';
-import Blog from './component/pages/Blog';
+
 function App() {
   return (
     <>

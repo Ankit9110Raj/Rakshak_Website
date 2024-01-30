@@ -1,8 +1,10 @@
 
 import * as React from "react";
-import {Container, Typography, Link, Grid, styled} from "@mui/material";
+import {Container, Typography,Link,  Grid, styled} from "@mui/material";
 import { Facebook, Instagram, YouTube,LinkedIn } from "@mui/icons-material";
 import { Box } from "@mui/material";
+import { Link as RouterLink } from "react-router-dom";
+
 
 const Dabba =styled(Box)`
   background-color: lightblue;
@@ -51,23 +53,26 @@ function Footer() {
             <Typography variant="h6" color="text.primary" gutterBottom>
               Company
             </Typography>
-            <Link to="./home">
+            <RouterLink to="/home" style={{textDecoration:'none'}}>
             <Typography variant="body2" color="text.secondary">
              HOME
             </Typography>
-            </Link>
-            <Typography variant="body2" color="text.secondary">
-              PLANES
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              COMPETITION
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              TEAMS
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              SUBSYSTEM
-            </Typography>
+            </RouterLink>
+            <RouterLink to="/plane" style={{textDecoration:'none'}}>
+                <Typography variant="body2" color="text.secondary">
+                  PLANE
+                </Typography>
+              </RouterLink>
+              <RouterLink to="/competitions" style={{textDecoration:'none'}}>
+                <Typography variant="body2" color="text.secondary">
+                  COMPETITIONS
+                </Typography>
+              </RouterLink>
+              <RouterLink to="/teams" style={{textDecoration:'none'}}>
+                <Typography variant="body2" color="text.secondary">
+                  TEAMS
+                </Typography>
+              </RouterLink>
           </Grid>
 
 
