@@ -36,7 +36,7 @@ const menuItemStyles = {
 };
 
 export default function ButtonAppBar() {
-  const my_pages = ['Home', 'Plane', 'Competitions', 'Subsystems', 'Teams', 'Blog', 'Contact Us'];
+  const my_pages = ['Home', 'Plane', 'Competitions', 'Subsystems', 'Teams', 'Contact Us'];
 
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [menuOpen, setMenuOpen] = React.useState(false);
