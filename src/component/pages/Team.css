@@ -13,6 +13,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
   font-size: 0.875rem;
+  overflow-x: hidden;
  
 }
 
@@ -161,4 +162,20 @@ h2{
   color: aliceblue;
   
   /* Other styles for the selected category */
+}
+
+@media (max-width: 768px) {
+  .section-center {
+   margin-left: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .menu-section {
+    padding: 0 10px; /* Adjust padding for smaller screens */
+  }
+
+  .section-center {
+    margin-left: 5px; /* Adjust margin for smaller screens */
+    padding-right: 20px; /* Adjust padding for smaller screens */
+  }
 }

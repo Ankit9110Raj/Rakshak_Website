@@ -84,7 +84,7 @@ const item=[
 
     {
         id:3,
-        title:'Niranjan Verma',
+        title:'Harsh Neema',
         category: "Team Lead",
         img:teamlead1,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -93,7 +93,7 @@ const item=[
 
     {
         id:4,
-        title:'Niranjan Verma',
+        title:'Abhishek Kumar',
         category: "Team Lead",
         img:teamlead2,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -102,7 +102,7 @@ const item=[
 
     {
         id:5,
-        title:'Niranjan Verma',
+        title:'Sanskar Maddi',
         category: "Team Lead",
         img:teamlead3,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -112,7 +112,7 @@ const item=[
 
     {
         id:6,
-        title:'Ashutosh Bharti',
+        title:'Aryank Banoth',
         category: "Avionics",
         img:avionics1,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -121,7 +121,7 @@ const item=[
 
     {
         id:7,
-        title:'Ashutosh Bharti',
+        title:'Samar Agarwal',
         category: "Avionics",
         img:avionics2,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -130,7 +130,7 @@ const item=[
 
     {
         id:8,
-        title:'Ashutosh Bharti',
+        title:'Shreyas',
         category: "Avionics",
         img:avionics3,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -139,7 +139,7 @@ const item=[
 
     {
         id:9,
-        title:'Ashutosh Bharti',
+        title:'Satyajeet Das',
         category: "Avionics",
         img:avionics4,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -148,7 +148,7 @@ const item=[
 
     {
         id:10,
-        title:'Ashutosh Bharti',
+        title:'Anjali Antil',
         category: "Avionics",
         img:avionics5,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -157,7 +157,7 @@ const item=[
 
     {
         id:11,
-        title:'Ashutosh Bharti',
+        title:'Jahnvee Tailor',
         category: "Avionics",
         img:avionics6,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -166,7 +166,7 @@ const item=[
 
     {
         id:12,
-        title:'Ashutosh Bharti',
+        title:'Harsh Raj',
         category: "Avionics",
         img:avionics7,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -175,7 +175,7 @@ const item=[
 
     {
         id:13,
-        title:'Ashutosh Bharti',
+        title:'Raghav Sapre',
         category: "Avionics",
         img:avionics8,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -184,7 +184,7 @@ const item=[
 
     {
         id:14,
-        title:'Ashutosh Bharti',
+        title:'Altra Z',
         category: "Avionics",
         img:avionics9,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -193,7 +193,7 @@ const item=[
 
     {
         id:15,
-        title:'Ashutosh Bharti',
+        title:'Saurabh Gupta',
         category: "Avionics",
         img:avionics10,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -202,7 +202,7 @@ const item=[
 
     {
         id:16,
-        title:'Ashutosh Bharti',
+        title:'Ghoshank Nanhe',
         category: "Avionics",
         img:avionics11,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -211,7 +211,7 @@ const item=[
 
     {
         id:17,
-        title:'Ashutosh Bharti',
+        title:'Nikhil Jha',
         category: "Avionics",
         img:avionics12,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -220,7 +220,7 @@ const item=[
 
     {
         id:18,
-        title:'Ashutosh Bharti',
+        title:'yug agarwal',
         category: "Avionics",
         img:avionics13,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -229,7 +229,7 @@ const item=[
 
     {
         id:19,
-        title:'Ashutosh Bharti',
+        title:'Lakshya Gadhwal',
         category: "Avionics",
         img:avionics14,
         instagram:'https://www.instagram.com/me_niranjanv/',
@@ -349,7 +349,7 @@ const item=[
 
     {
         id:32,
-        title:'Aditya Umate',
+        title:'Soham Joshi',
         category: "Avionics",
         img:avionics15,
         instagram:'https://www.instagram.com/me_niranjanv/',

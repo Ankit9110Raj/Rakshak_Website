@@ -33,7 +33,7 @@ function Team() {
    <>
       <div className="menu-section">
         <div className="title">
-          <h2>OUR TEAM MEMBERS</h2>
+          <h2 style={{    color: '#929fe3'}}>OUR TEAM MEMBERS</h2>
           <div className="underline"></div>
         </div>
         <div className="categories">
