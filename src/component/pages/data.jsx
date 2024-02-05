@@ -357,36 +357,9 @@ const item=[
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
 
+
     {
         id:33,
-        title:'Aditya Umate',
-        category: "Software",
-        img:sunidhiImage,
-        instagram:'https://www.instagram.com/me_niranjanv/',
-        linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
-    },
-
-    {
-        id:34,
-        title:'Aditya Umate',
-        category: "Software",
-        img:sunidhiImage,
-        instagram:'https://www.instagram.com/me_niranjanv/',
-        linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
-    },
-
-    {
-        id:35,
-        title:'Aditya Umate',
-        category: "Software",
-        img:sunidhiImage,
-        instagram:'https://www.instagram.com/me_niranjanv/',
-        linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
-    },
-
-
-    {
-        id:36,
         title:'Ripudaman Singh',
         category: "Aerodynamics",
         img:aerodynamics1,
@@ -395,7 +368,7 @@ const item=[
     },
 
     {
-        id:37,
+        id:34,
         title:'Disha Gupta',
         category: "Aerodynamics",
         img:aerodynamics2,
@@ -404,7 +377,7 @@ const item=[
     },
 
     {
-        id:38,
+        id:35,
         title:'VRAJ KANUBHAI PATEL',
         category: "Aerodynamics",
         img:aerodynamics3,
@@ -413,7 +386,7 @@ const item=[
     },
 
     {
-        id:39,
+        id:36,
         title:'Vighnesh JR.',
         category: "Aerodynamics",
         img:aerodynamics4,
@@ -422,7 +395,7 @@ const item=[
     },
     
     {
-        id:40,
+        id:37,
         title:'Yashvi Bhuva',
         category: "Aerodynamics",
         img:aerodynamics5,
@@ -431,7 +404,7 @@ const item=[
     },
 
     {
-        id:41,
+        id:38,
         title:'Sourabh Chouhan',
         category: "Aerodynamics",
         img:aerodynamics6,
@@ -440,7 +413,7 @@ const item=[
     },
 
     {
-        id:42,
+        id:39,
         title:'Achintya Agrawal',
         category: "Aerodynamics",
         img:aerodynamics7,
@@ -449,7 +422,7 @@ const item=[
     },
 
     {
-        id:43,
+        id:40,
         title:'Advait S.',
         category: "Aerodynamics",
         img:aerodynamics8,
@@ -458,7 +431,7 @@ const item=[
     },
 
     {
-        id:44,
+        id:41,
         title:'Parul Diwan',
         category: "Aerodynamics",
         img:aerodynamics9,
@@ -467,7 +440,7 @@ const item=[
     },
 
     {
-        id:45,
+        id:42,
         title:'Prateek sharma',
         category: "Aerodynamics",
         img:aerodynamics10,
@@ -476,7 +449,7 @@ const item=[
     },
 
     {
-        id:46,
+        id:43,
         title:'Abhishek Kumar',
         category: "Aerodynamics",
         img:aerodynamics11,
@@ -485,7 +458,7 @@ const item=[
     },
 
     {
-        id:47,
+        id:44,
         title:'Kanak Dudi',
         category: "Aerodynamics",
         img:aerodynamics12,
@@ -494,7 +467,7 @@ const item=[
     },
 
     {
-        id:48,
+        id:45,
         title:'Krishna Kumar',
         category: "Aerodynamics",
         img:aerodynamics13,
@@ -502,18 +475,9 @@ const item=[
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
     },
 
-    {
-        id:49,
-        title:'Dhruv Pandey',
-        category: "Aerodynamics",
-        img:aerodynamics14,
-        instagram:'https://www.instagram.com/me_niranjanv/',
-        linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
-    },
 
-    
     {
-        id:50,
+        id:46,
         title:'Sunidhi Rana',
         category: "Business",
         img:business1,
@@ -522,7 +486,7 @@ const item=[
     },
 
     {
-        id:51,
+        id:47,
         title:'Ayush Shegokar',
         category: "Business",
         img:business2,
@@ -531,7 +495,7 @@ const item=[
     },
 
     {
-        id:52,
+        id:48,
         title:'Aagam Shah',
         category: "Business",
         img:business3,
@@ -540,7 +504,7 @@ const item=[
     },
 
     {
-        id:53,
+        id:49,
         title:'Ronit Tripathy',
         category: "Business",
         img:business4,
@@ -549,7 +513,7 @@ const item=[
     },
 
     {
-        id:54,
+        id:50,
         title:'Radhika',
         category: "Business",
         img:business5,
@@ -558,7 +522,7 @@ const item=[
     },
 
     {
-        id:55,
+        id:51,
         title:'Nisarg Dixit',
         category: "Business",
         img: business6,
@@ -567,7 +531,7 @@ const item=[
     },
 
     {
-        id:56,
+        id:52,
         title:'Pratiek Sonare',
         category: "Business",
         img:business7,
@@ -576,36 +540,13 @@ const item=[
     },
 
     {
-        id:57,
+        id:53,
         title:'Kaustav Saha',
         category: "Business",
         img:business8,
         instagram:'https://www.instagram.com/me_niranjanv/',
         linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
-    },
-
-    {
-        id:58,
-        title:'Vinay Kushwaha',
-        category: "Business",
-        img:business8,
-        instagram:'https://www.instagram.com/me_niranjanv/',
-        linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
-    },
-
-    {
-        id:59,
-        title:'Vinay Kushwaha',
-        category: "Business",
-        img:business1,
-        instagram:'https://www.instagram.com/me_niranjanv/',
-        linkedin:'https://www.linkendin.com/in/niranjan-verma-97b737230/'
-    }
-
-    
-
-    
-    
+    }   
 
 ]
 
